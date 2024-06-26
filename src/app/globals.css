@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-roboto);
+}
+
+
+.bgimg {
+    background-image: url('/public/background1.jpg');
+    width: "50dvw";
+    height: "50dvh";
+
+}
+
+
+/* --------------------------------------------------------------- */
+/*                       Page List                                 */
+/* --------------------------------------------------------------- */
+.Card p {
+    display: inline-flex;
+    /* Other card styles */
+}
+
+
+.carousel-images {
+
+}
+
+.carousel-images__item {
+
+}
+
+.carousel-images__item .ant-image{
+    width: 100%;
+}
+
+.carousel-images__item .ant-image img{
+    object-fit: cover;
+    height: 870px;
+}
